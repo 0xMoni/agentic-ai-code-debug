@@ -1,0 +1,24 @@
+# ---- Core app ----
+streamlit>=1.40,<2
+python-dotenv>=1.0
+pydantic>=2.7
+
+# ---- LangChain (prompt templates + LCEL) ----
+langchain-core>=0.3,<2
+langchain-groq>=0.2
+
+# ---- Agentic RAG / vector DB ----
+chromadb>=0.5,<2
+numpy>=1.26
+
+# ---- Linting (real tool, not LLM opinion) ----
+ruff>=0.6
+
+# ---- Testing ----
+pytest>=8.0
+
+# ---- Reporting ----
+jinja2>=3.1
+
+# ---- HTTP (model availability checks, Ollama provider) ----
+requests>=2.31

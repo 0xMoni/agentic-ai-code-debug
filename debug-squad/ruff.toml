@@ -1,0 +1,14 @@
+target-version = "py313"
+line-length = 90
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "PLW", "BLE", "RUF"]
+ignore = ["E501", "B008", "PLW2901", "UP042", "RUF012"]
+
+[lint.per-file-ignores]
+"examples/find_max_logical_bug.py" = ["ALL"]
+"examples/average_runtime_risk.py" = ["ALL"]
+"examples/calc_code_style.py" = ["ALL"]
+"examples/inventory_mixed_issues.py" = ["ALL"]
+"examples/binary_search_edge_cases.py" = ["ALL"]
+"examples/word_counter_clean.py" = ["ALL"]
